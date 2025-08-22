@@ -1,0 +1,16 @@
+{
+	"name": "!name",
+	"contact": {
+		"location": {
+			"street": "!address",
+			"zip": "!zipcode",
+			"city": "!city",
+			"country": "!country"
+		},
+		"phone": "!phone_number",
+		"email": "!email"
+	},
+	"bio": "!randomtext",
+	"jobs_applied": ["&job:~2"],
+	"interests": ["interests"]
+}

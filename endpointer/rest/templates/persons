@@ -1,0 +1,4 @@
+{
+	"persons": ["&person:%count%"],
+	"count": "%count%"
+}

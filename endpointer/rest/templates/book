@@ -1,0 +1,5 @@
+{
+	"title": "!sentence",
+	"bio": "!paragraph",
+	"author": ["&person:2"]
+}

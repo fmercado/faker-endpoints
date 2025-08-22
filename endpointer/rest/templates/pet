@@ -1,0 +1,7 @@
+{
+	"name": "!name",
+	"age": "!pyint",
+	"type": "dog",
+	"owner": ["&person:0"],
+	"vet": ["&person:2"]
+}

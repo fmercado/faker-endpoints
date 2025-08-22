@@ -1,0 +1,20 @@
+services:
+  integrations:
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - 8100:8100
+    env_file:
+      - .env
+    volumes:
+      - ./endpointer:/var/app
+      - media-data:/var/media
+    networks:
+      - emissary-net
+
+networks:
+  emissary-net:
+    driver: bridge
+
+volumes:
+  media-data:

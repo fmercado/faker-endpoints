@@ -1,0 +1,5 @@
+{
+	"name": "!company",
+	"country": "!country",
+	"pilots": ["&pilot:100"]
+}
