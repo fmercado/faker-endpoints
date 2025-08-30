@@ -16,7 +16,7 @@ def get_contents(name, request):
 	r = Responser.from_file(name, request.GET)
 	return r.gen()
 
-def rtt(request, name):
+def fake_resolver(request, name, optional):
 
 	request_path = request.get_full_path()
 
