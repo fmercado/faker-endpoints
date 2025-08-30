@@ -18,9 +18,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from rest.views import fake_resolver
+from rest.views import fake_resolver, ai_resolver
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("fake/<name>/<path:optional>", fake_resolver)
+    path("fake/<name>/<path:optional>", fake_resolver),
+    path("ai/<topic>/<path:optional>", ai_resolver)
 ]

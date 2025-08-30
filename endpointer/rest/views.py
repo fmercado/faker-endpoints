@@ -31,3 +31,8 @@ def fake_resolver(request, name, optional):
 		Cache.objects.create(url=request_path, response_text=dumps(resp))
 		return JsonResponse(resp)
     
+def ai_resolver(request, topic, optional):
+
+    import rest.oa
+
+    return JsonResponse(rest.oa.get_json(topic), safe=False)
